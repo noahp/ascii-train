@@ -6,7 +6,7 @@ Set me up with `python setup.py bdist_wheel --universal`
 from setuptools import setup, Extension
 setup(
     name='ascii-train',
-    version='0.0.3',
+    version='0.0.4',
     description='Print an ascii train!',
     author='Noah Pendleton',
     author_email='2538614+noahp@users.noreply.github.com',
