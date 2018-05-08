@@ -1,4 +1,4 @@
-[![PyPI version](https://img.shields.io/pypi/v/ascii-train.svg?longCache=true&style=for-the-badge)](https://img.shields.io/pypi/v/ascii-train)
+[![PyPI version](https://img.shields.io/pypi/v/ascii-train.svg?longCache=true&style=for-the-badge)](https://pypi.org/project/ascii-train/)
 
 # ascii-train
 Prints out an ascii train, optionally with a text string passed as first arg or via stdin.
