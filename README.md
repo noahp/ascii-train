@@ -1,6 +1,15 @@
+[![PyPI version](https://img.shields.io/pypi/v/ascii-train.svg?longCache=true&style=for-the-badge)](https://img.shields.io/pypi/v/ascii-train)
+
 # ascii-train
 Prints out an ascii train, optionally with a text string passed as first arg or via stdin.
 
+# Installing
+Now deployed to pypi, install with:
+```bash
+pip install ascii-train
+```
+
+# Usage
 ```bash
 ➜ ./ascii-train "choo choo\!"
                  _-====-__-======-__-========-_____-============-__
