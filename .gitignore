@@ -1,3 +1,9 @@
 build/
 dist/
 ascii_train.egg-info
+*.pyc
+.coverage
+.pytest_cache
+pytest_output/
+.eggs
+venv
