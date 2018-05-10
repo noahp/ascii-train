@@ -7,3 +7,5 @@ ascii_train.egg-info
 pytest_output/
 .eggs
 venv
+.pytest_cache
+.cache
