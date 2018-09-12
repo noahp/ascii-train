@@ -16,10 +16,10 @@ setup(
 
     # using markdown as pypi description:
     # https://dustingram.com/articles/2018/03/16/markdown-descriptions-on-pypi
-    setup_requires=['setuptools>=38.6.0', 'wheel>=0.31.0', 'twine>=1.11.0'],
+    setup_requires=['setuptools>=38.6.0', 'wheel>=0.31.0', 'twine>=1.11.0', 'pytest-runner'],
 
-    # additional requirements used for test. install with `pip install -e '.[test]'`
-    extras_require={'test': ['pytest>=3.5.1', 'pytest-cov>=2.5.1']},
+    # additional requirements used for setup.py test
+    tests_require=['pytest>=3.5.1', 'pytest-cov>=2.5.1'],
 
     py_modules=['ascii_train'],
 

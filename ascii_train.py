@@ -79,6 +79,7 @@ def test_train():
 
 def test_main():
     """Test main?"""
+    sys.argv = [sys.argv[0]] + ["test test"]
     main()
 
 
